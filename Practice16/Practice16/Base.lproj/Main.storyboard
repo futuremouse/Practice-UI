@@ -160,12 +160,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="cat" id="Vd4-1y-jeK">
-                        <barButtonItem key="rightBarButtonItem" image="arrow.clockwise.circle" catalog="system" style="plain" id="tev-hV-ffx">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jVj-0N-Jft">
-                                <rect key="frame" x="276.33333333333331" y="5" width="100.66666666666669" height="35"/>
+                        <barButtonItem key="rightBarButtonItem" id="HI8-sY-nOD">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="lTe-ch-A6O">
+                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="arrow.clockwise.circle" catalog="system" title=""/>
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.clockwise.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="didTap:" destination="f2Y-X5-oen" eventType="touchUpInside" id="6rA-6a-M7f"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>

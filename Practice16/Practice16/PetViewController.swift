@@ -21,7 +21,7 @@ class PetViewController: UIViewController {
     loadCatImage()
   }
   
-    @IBAction func didTap(_ sender: UIBarButtonItem) {
+    @IBAction func didTap(_ sender: Any) {
         loadCatImage()
     }
   private func loadCatImage() {
